@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Catálogo de servicios y precios · Escudo Digital</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/documentos.css">
+</head>
+<body>
+  <div class="toolbar">
+    <a href="index.html">Volver a la página</a>
+    <button type="button" onclick="window.print()">Guardar como PDF</button>
+  </div>
+
+  <article class="sheet flow">
+    <header class="brand">
+      <svg viewBox="0 0 32 36" fill="none" aria-hidden="true">
+        <path d="M16 1.5 3.5 6.2v9.4c0 8.2 5.3 14.6 12.5 17.4 7.2-2.8 12.5-9.2 12.5-17.4V6.2L16 1.5Z" stroke="currentColor" stroke-width="1.6"/>
+        <rect x="12.2" y="15.2" width="7.6" height="6.4" rx="1.2" stroke="currentColor" stroke-width="1.5"/>
+        <path d="M13.6 15.2v-1.7a2.4 2.4 0 0 1 4.8 0v1.7" stroke="currentColor" stroke-width="1.5"/>
+      </svg>
+      <div>
+        <p class="word">Escudo <span>Digital</span></p>
+        <p class="tag">Catálogo de servicios y precios · Daniel Sánchez Benítez</p>
+      </div>
+    </header>
+    <p class="pitch">Ayudo a pequeñas y medianas empresas a identificar riesgos, fortalecer su infraestructura y mejorar su postura de ciberseguridad mediante evaluaciones técnicas, hardening, pentesting y acompañamiento especializado.</p>
+    <p class="note">Precios en pesos mexicanos, antes de impuestos. Donde dice «desde», el monto final depende del alcance y se fija en la propuesta.</p>
+
+    <h1 style="margin-top:8mm">Servicios</h1>
+    <table class="catalog" style="margin-top:4mm">
+      <thead>
+        <tr>
+          <th>Servicio</th>
+          <th>Incluye</th>
+          <th>Inversión</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Evaluación inicial</strong></td>
+          <td>Reunión de descubrimiento, análisis preliminar de seguridad, identificación de riesgos evidentes y recomendaciones prioritarias.</td>
+          <td class="money"><strong>$4,900 MXN</strong></td>
+        </tr>
+        <tr>
+          <td><strong>Diagnóstico de seguridad</strong></td>
+          <td>Revisión de infraestructura, Active Directory, Microsoft 365, firewall, VPN, controles de seguridad y matriz de riesgos.</td>
+          <td class="money"><strong>$9,900 MXN</strong></td>
+        </tr>
+        <tr>
+          <td><strong>Vulnerability assessment</strong></td>
+          <td>Escaneo de vulnerabilidades, identificación de CVEs, análisis de exposición, clasificación por severidad y plan de remediación.</td>
+          <td class="money"><strong>$15,000 MXN</strong></td>
+        </tr>
+        <tr>
+          <td><strong>Pentest web</strong></td>
+          <td>Evaluación de aplicaciones web, autenticación, autorización, OWASP Top 10, explotación controlada y reporte técnico.</td>
+          <td class="money"><strong>Desde $25,000 MXN</strong></td>
+        </tr>
+        <tr>
+          <td><strong>Pentest interno / externo</strong></td>
+          <td>Reconocimiento, enumeración de servicios, explotación controlada, evaluación de segmentación y escalamiento de privilegios.</td>
+          <td class="money"><strong>Desde $35,000 MXN</strong></td>
+        </tr>
+        <tr>
+          <td><strong>Seguridad de infraestructura</strong></td>
+          <td>Revisión de servidores, Active Directory, firewall, DNS, DHCP, redes y configuración de servicios críticos.</td>
+          <td class="money"><strong>$22,000 MXN</strong></td>
+        </tr>
+        <tr>
+          <td><strong>Hardening de sistemas</strong></td>
+          <td>Fortalecimiento de Windows Server y Linux, configuración basada en CIS Benchmarks y revisión de accesos privilegiados.</td>
+          <td class="money"><strong>Desde $12,000 MXN</strong></td>
+        </tr>
+        <tr>
+          <td><strong>Automatización para TI</strong></td>
+          <td>Scripts PowerShell/Bash, automatización de reportes, monitoreo, alertas y gestión de usuarios.</td>
+          <td class="money"><strong>Desde $15,000 MXN</strong></td>
+        </tr>
+        <tr>
+          <td><strong>Capacitación y concientización</strong></td>
+          <td>Sesión para personal de TI, usuarios o directivos. Incluye material de apoyo y espacio para preguntas.</td>
+          <td class="money"><strong>$6,500 MXN</strong></td>
+        </tr>
+        <tr>
+          <td><strong>Consultoría especializada</strong></td>
+          <td>Asesoría técnica, revisión de arquitectura, acompañamiento en proyectos, auditorías y remediación.</td>
+          <td class="money"><strong>$1,200 MXN/hora</strong></td>
+        </tr>
+      </tbody>
+    </table>
+  </article>
+
+  <article class="sheet flow">
+    <p class="kicker"><span>//</span> Condiciones</p>
+    <h2 style="margin-top:4mm">Cómo se cotiza</h2>
+    <ul class="clean">
+      <li>Los precios de “desde” cubren un alcance pequeño de PyME. Si hay más sistemas, sedes o aplicaciones, la propuesta lo desglosa.</li>
+      <li>Montos en MXN, antes de impuestos. La forma de pago se acuerda en la propuesta: normalmente 50% al iniciar y 50% contra entrega.</li>
+      <li>Toda prueba de seguridad requiere autorización escrita y un alcance cerrado. Sin eso no se ejecuta.</li>
+      <li>Los hallazgos y la información del cliente son confidenciales.</li>
+      <li>La vigencia de estas tarifas de referencia es de 30 días a partir de la fecha de envío.</li>
+      <li>Presencial en el Estado de México o en remoto. Los traslados fuera de la zona se cotizan aparte.</li>
+    </ul>
+
+    <h2 style="margin-top:10mm">Qué recibe el cliente</h2>
+    <ul class="clean">
+      <li>Reporte ejecutivo en lenguaje de negocio.</li>
+      <li>Detalle técnico solo para quien deba corregir.</li>
+      <li>Plan de remediación con prioridades.</li>
+      <li>Una sesión para explicar resultados y siguientes pasos.</li>
+    </ul>
+
+    <p class="foot">Escudo Digital · Daniel Sánchez Benítez · 55 7441 8610 · Estado de México · Presencial y remoto<br>Pruebas autorizadas por contrato · Confidencialidad garantizada</p>
+  </article>
+</body>
+</html>
