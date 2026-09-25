@@ -92,6 +92,10 @@ th { font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; colo
 .catalog th:last-child, .catalog td.money { text-align: right; }
 .catalog td:first-child { width: 32%; }
 .catalog td:last-child { width: 24%; }
+.catalog.services-only td:first-child { width: 34%; }
+.catalog.services-only td:last-child { width: auto; text-align: left; }
+.catalog.services-only.pick td:first-child { width: 1.6rem; }
+.catalog.services-only.pick td:nth-child(2) { width: 32%; }
 .catalog { font-size: 0.8rem; }
 .blank {
   display: inline-block;

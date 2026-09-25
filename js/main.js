@@ -21,7 +21,7 @@ form?.addEventListener("submit", (event) => {
   const empresa = String(data.get("empresa") || "").trim();
   const mensaje = String(data.get("mensaje") || "").trim();
   const text = [
-    "Hola Daniel, quiero agendar una consulta con Escudo Digital.",
+    "Hola, quiero agendar una consulta con Escudo Digital.",
     `Nombre: ${nombre}`,
     empresa ? `Empresa: ${empresa}` : "",
     `Necesito: ${mensaje}`,

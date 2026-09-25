@@ -139,7 +139,7 @@ button, input, textarea { font: inherit; }
   font-size: clamp(2.1rem, 4.6vw, 3.35rem);
   line-height: 1.05;
   letter-spacing: -0.03em;
-  max-width: 16ch;
+  max-width: 18ch;
 }
 .prompt {
   margin: 0;

@@ -91,7 +91,7 @@ button, a { font: inherit; }
   max-width: 12ch;
 }
 .prompt {
-  margin: 0;
+  margin: 22mm 0 0;
   color: var(--green);
   font-family: var(--mono);
   font-size: 0.98rem;
