@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Logo · Escudo Digital</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap" rel="stylesheet">
+  <style>
+    body { margin: 0; background: #e6e9ee; font-family: Manrope, sans-serif; }
+    main { width: min(760px, calc(100% - 32px)); margin: 28px auto; display: grid; gap: 18px; }
+    img { width: 100%; height: auto; display: block; }
+    .light, .dark { background: white; border-radius: 16px; padding: 28px; }
+    .dark { background: #07110e; }
+    p { margin: 0 0 12px; color: #5c6864; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="light">
+      <p>Logo para fondo claro</p>
+      <img src="logo.svg" alt="Escudo Digital">
+    </section>
+    <section class="dark">
+      <p style="color:#9eaba6">Logo para fondo oscuro</p>
+      <img src="logo-oscuro.svg" alt="Escudo Digital sobre fondo oscuro">
+    </section>
+  </main>
+</body>
+</html>

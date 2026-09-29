@@ -30,4 +30,6 @@ form?.addEventListener("submit", (event) => {
     .join("\n");
   const url = `https://wa.me/525574418610?text=${encodeURIComponent(text)}`;
   window.open(url, "_blank", "noopener");
+  const status = document.getElementById("form-status");
+  if (status) status.hidden = false;
 });
